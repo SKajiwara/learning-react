@@ -18,12 +18,17 @@ class App extends Component {
   };
 
   state = {
-    characters: []
+    characters: [],
+    backgroundColor: "rgba(242, 246, 255, 1)"
   };
   render() {
     const { characters } = this.state;
+
     return (
-      <div className="Container">
+      <div
+        className="Container"
+        style={{ background: this.state.backgroundColor }}
+      >
         <Table
           characterData={characters}
           removeCharacter={this.removeCharacter}

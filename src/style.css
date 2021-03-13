@@ -41,6 +41,11 @@ html {
  */
 body {
   margin: 0;
+  display: "flex";
+  height: "1080px";
+  width: "1920px";
+  borderradius: "30px";
+  backgroundcolor: "rgba(242, 246, 255, 1)";
 }
 
 /* HTML5 display definitions
